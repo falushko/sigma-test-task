@@ -4,7 +4,10 @@ This library allows to create a POS Terminal and count a price for a shopping ca
 depending on different pricing strategies.
 
 ## How to install
+```
 composer require feriatos/sigma-test-task
+```
+
 ## How to use
 
 First create pricing strategies and add products:
