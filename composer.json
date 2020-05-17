@@ -1,0 +1,22 @@
+{
+    "name": "feriatos/sigma-test-task",
+    "type": "library",
+    "description": "Test task for Sigma Software",
+    "homepage": "https://github.com/feriatos/sigma-test-task",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Falushko",
+            "email": "vov8278@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"SigmaTestTask\\": "src/"}
+    },
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
