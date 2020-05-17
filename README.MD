@@ -3,9 +3,9 @@
 This library allows to create a POS Terminal and count a price for a shopping cart 
 depending on different pricing strategies.
 
-### How to install
-TBD
-### How to use
+## How to install
+composer require feriatos/sigma-test-task
+## How to use
 
 First create pricing strategies and add products:
 
@@ -49,7 +49,7 @@ To clean items call:
 $terminal->resetItems();
 ```
 
-### How to extend
+## How to extend
 
 This library utilizes Strategy design patter. You could extend it just implementing 
 `PricingInterface` and `ProductInterface` and add your own pricing strategy (for 
